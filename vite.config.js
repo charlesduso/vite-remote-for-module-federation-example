@@ -13,7 +13,7 @@ export default defineConfig({
   },
   plugins: [
     federation({
-      name: "remote",
+      name: "submodule-remote",
       filename: "remoteEntry.js",
       exposes: {
         "./export-app": "./src/export-app.tsx",
